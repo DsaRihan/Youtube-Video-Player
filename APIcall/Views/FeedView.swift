@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct FeedView: View {
+    
+    @State private var videos = [Video]()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("hello")
+            .task {
+                
+            }
     }
 }
 
