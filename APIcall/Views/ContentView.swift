@@ -13,6 +13,13 @@ struct HomePage: View {
             FeedView()
         }
         .padding()
+        .onAppear(perform: {
+            if let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String {
+                print("API Key: \(apiKey)")
+            } else {
+                print("Could not find API_KEY")
+            }
+        })
     }
 }
 
