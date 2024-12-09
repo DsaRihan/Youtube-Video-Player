@@ -27,11 +27,25 @@
 		5E070C4C2D06D8C4003E4938 /* APIcall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIcall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E070C5C2D06D8C5003E4938 /* APIcallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIcallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E070C662D06D8C6003E4938 /* APIcallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIcallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E070C8E2D06DD96003E4938 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5E070C952D06DEC7003E4938 /* Exceptions for "APIcall" folder in "APIcall" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5E070C4B2D06D8C4003E4938 /* APIcall */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5E070C4E2D06D8C4003E4938 /* APIcall */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5E070C952D06DEC7003E4938 /* Exceptions for "APIcall" folder in "APIcall" target */,
+			);
 			path = APIcall;
 			sourceTree = "<group>";
 		};
@@ -79,6 +93,7 @@
 				5E070C5F2D06D8C5003E4938 /* APIcallTests */,
 				5E070C692D06D8C6003E4938 /* APIcallUITests */,
 				5E070C4D2D06D8C4003E4938 /* Products */,
+				5EACFCBF2D06F303003E40ED /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +105,14 @@
 				5E070C662D06D8C6003E4938 /* APIcallUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5EACFCBF2D06F303003E40ED /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				5E070C8E2D06DD96003E4938 /* Config.xcconfig */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +294,8 @@
 /* Begin XCBuildConfiguration section */
 		5E070C6E2D06D8C6003E4938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 5E070C4E2D06D8C4003E4938 /* APIcall */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +359,8 @@
 		};
 		5E070C6F2D06D8C6003E4938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 5E070C4E2D06D8C4003E4938 /* APIcall */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -398,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"APIcall/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIcall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"APIcall/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIcall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

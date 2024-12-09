@@ -11,8 +11,12 @@ struct FeedView: View {
     
     @State private var videos = [Video]()
     var body: some View {
-        Text("hello")
+        List(videos){
+            v in
+            Text(v.snippet?.title ?? "Title")
+        }
             .task {
+                 self.videos  = await DataService().getVideo()
                 
             }
     }
