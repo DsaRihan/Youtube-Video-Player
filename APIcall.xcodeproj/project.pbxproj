@@ -218,6 +218,9 @@
 			);
 			mainGroup = 5E070C432D06D8C4003E4938;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5EACFCE22D07EAC8003E40ED /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5E070C4D2D06D8C4003E4938 /* Products */;
 			projectDirPath = "";
@@ -581,6 +584,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EACFCE22D07EAC8003E40ED /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5E070C442D06D8C4003E4938 /* Project object */;
 }

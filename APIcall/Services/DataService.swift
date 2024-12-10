@@ -58,7 +58,7 @@ struct DataService {
         }
         
         // Construct the URL
-        let urlString = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLMRqhzcHGw1Y5Cluhf7pKRNZtKaA3Q4kg&key=\(apiKey)"
+        let urlString = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLMRqhzcHGw1Y5Cluhf7pKRNZtKaA3Q4kg&maxResults=20&key=\(apiKey)"
         
         // Ensure the URL is valid
         guard let url = URL(string: urlString) else {
